@@ -4,22 +4,74 @@
   font-family: 'Noto Serif', serif;
 }
 
+blockquote{
+  font-size: 1em;
+}
+
 .header-container{
   height: 100px;
   width: 100%;
   background: #E59866 ;
 }
 
+header{
+  padding: 0.9em, 1.2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-container ul{
+    list-style-type: none;
+}
+
+nav{
+  padding-top: 2.5em;
+  padding-left: 0.8em;
+}
+
+nav a img{
+  height: 25px;
+}
+
+.header-container a{
+  margin-top: 4em;
+}
+
 .header-container nav ul{
   display: none;
 }
+
 .logo{
   height: 90px;
   width: 150px;
   margin-left: 1.6em;
 }
 
+.search-bar{
+  display: inline;
+  position: relative;
+  margin: 1.2em;
+}
+
+.search-txt{
+  margin-top: 0.8em;
+  height: 30px;
+  width: 275px;
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 0.6px 16px;
+}
+
+.right{
+  position: absolute;
+  margin-top: -1.5em;
+  height: 20px;
+  margin-left: 15em;
+}
+
 .body-container{
+  text-align: center;
+  padding: 2em;
   height: 400px;
   width: 100%;
   background: #F6DDCC;
